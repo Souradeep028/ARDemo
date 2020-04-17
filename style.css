@@ -1,0 +1,39 @@
+h2 {
+  text-align: center;
+}
+
+.show {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  width: 350px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 600px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.show .static {
+  position: absolute;
+  width: 330px;
+}
+
+.show .active {
+  width: 330px;
+  visibility: hidden;
+  margin-top: 0.4rem;
+}
+
+.show:hover .active {
+  visibility: visible;
+}
+/*# sourceMappingURL=style.css.map */
